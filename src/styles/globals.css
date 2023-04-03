@@ -27,14 +27,16 @@ a {
 
 }
 
-.show {
-  visibility: visible ;
-  opacity: 1 ;
-  backface-visibility: visible ;
-}
+
 
 .hide {
   visibility: hidden;
   opacity: 0;
   backface-visibility: hidden;
+}
+
+.show {
+  visibility: visible ;
+  opacity: 1 ;
+  backface-visibility: visible ;
 }

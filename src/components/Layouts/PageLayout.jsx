@@ -24,6 +24,11 @@ const PageLayoutStyle = styled(Paper)(({ theme }) => ({
   [theme.breakpoints.down("sm")]: {
     padding: "60px 10px",
   },
+  "&.show": {
+    visibility: "visible",
+    opacity: 1,
+    backfaceVisibility: "visible",
+  },
 }));
 function PageLayout({ children, ...props }) {
   return <PageLayoutStyle {...props}>{children}</PageLayoutStyle>;
