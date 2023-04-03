@@ -147,7 +147,7 @@ function Navbar() {
     const Prev = document.getElementById(id);
     const next1 = document.getElementById(next);
 
-    switch (randomIntFromInterval(0, 6)) {
+    switch (randomIntFromInterval(0, 11)) {
       case 0:
         inClass = "animate__rotateInDownRight";
         outClass = "animate__lightSpeedOutLeft";
@@ -182,6 +182,22 @@ function Navbar() {
       case 7:
         inClass = "animate__fadeIn";
         outClass = "animate__rotateOutDownLeft";
+        break;
+      case 8:
+        inClass = "animate__zoomInDown";
+        outClass = "animate__zoomOut";
+        break;
+      case 9:
+        inClass = "animate__zoomIn";
+        outClass = "animate__zoomOutUp";
+        break;
+      case 10:
+        inClass = "animate__zoomIn";
+        outClass = "animate__flipOutY";
+        break;
+      case 11:
+        inClass = "animate__zoomIn";
+        outClass = "animate__lightSpeedOutLeft";
         break;
     }
 
