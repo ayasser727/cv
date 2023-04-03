@@ -28,9 +28,9 @@ a {
 }
 
 .show {
-  visibility: visible !important;
-  opacity: 1 !important;
-  backface-visibility: visible !important;
+  visibility: visible ;
+  opacity: 1 ;
+  backface-visibility: visible ;
 }
 
 .hide {

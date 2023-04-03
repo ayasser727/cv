@@ -1,6 +1,5 @@
 import TransitionLayout from "../components/Layouts/TransitionLayout";
 import Theme from "../utils/Theme";
-import "../styles/globals.css";
 import "animate.css";
 import "swiper/css/bundle";
 import "react-toastify/dist/ReactToastify.css";
@@ -8,6 +7,7 @@ import { ToastContainer } from "react-toastify";
 import { AnimatePresence } from "framer-motion";
 import { useRouter } from "next/router";
 import { useEffect } from "react";
+import "../styles/globals.css";
 
 export default function App({ Component, pageProps }) {
   const { query, push } = useRouter();
